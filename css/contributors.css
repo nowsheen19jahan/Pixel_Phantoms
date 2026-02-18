@@ -2675,9 +2675,7 @@ body.dark-mode .calendar .contrib-legend .legend {
 
 
 
-.roadmap-step:active {
-  transform: scale(0.98);
-}
+
 .roadmap-step.is-active .step-node {
   box-shadow:
     0 0 0 6px color-mix(in srgb, var(--accent-color), transparent 70%),
@@ -2693,17 +2691,13 @@ body.dark-mode .calendar .contrib-legend .legend {
   cursor: pointer;
 }
 
-.roadmap-step:active {
-  transform: scale(0.98);
-}
+
 .roadmap-step:focus-visible .step-node {
   outline: 3px solid var(--accent-color);
   outline-offset: 6px;
 }
 
-.roadmap-step:hover {
-  transform: none !important;
-}
+
 
 /* FORCE FULL WIDTH FOR CONTRIBUTORS PAGE */
 .main-content,
